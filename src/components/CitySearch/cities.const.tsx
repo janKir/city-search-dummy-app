@@ -1186,14 +1186,6 @@ export const cities: City[] = [
     state: 'Portugal'
   },
   {
-    name: 'Madrid',
-    zipCode: '28001',
-    latitude: 40.4168,
-    longitude: -3.7038,
-    inhabitants: 3223000,
-    state: 'Spain'
-  },
-  {
     name: 'Stuttgart',
     zipCode: '70173',
     latitude: 48.7758,
@@ -1722,14 +1714,6 @@ export const cities: City[] = [
     state: 'Switzerland'
   },
   {
-    name: 'Brussels',
-    zipCode: '1000',
-    latitude: 50.8503,
-    longitude: 4.3517,
-    inhabitants: 1208000,
-    state: 'Belgium'
-  },
-  {
     name: 'Antwerp',
     zipCode: '2000',
     latitude: 51.2194,
@@ -1762,14 +1746,6 @@ export const cities: City[] = [
     state: 'Belgium'
   },
   {
-    name: 'Amsterdam',
-    zipCode: '1012',
-    latitude: 52.3676,
-    longitude: 4.9041,
-    inhabitants: 872000,
-    state: 'Netherlands'
-  },
-  {
     name: 'Rotterdam',
     zipCode: '3011',
     latitude: 51.9225,
@@ -1800,14 +1776,6 @@ export const cities: City[] = [
     longitude: 5.4697,
     inhabitants: 235707,
     state: 'Netherlands'
-  },
-  {
-    name: 'Copenhagen',
-    zipCode: '1000',
-    latitude: 55.6761,
-    longitude: 12.5683,
-    inhabitants: 794000,
-    state: 'Denmark'
   },
   {
     name: 'Aarhus',
