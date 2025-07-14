@@ -1800,5 +1800,455 @@ export const cities: City[] = [
     longitude: 9.1756,
     inhabitants: 84705,
     state: 'Germany'
+  },
+  {
+    id: 201,
+    name: 'Paris',
+    zipCode: '75000',
+    latitude: 48.8566,
+    longitude: 2.3522,
+    inhabitants: 2148000,
+    state: 'France'
+  },
+  {
+    id: 202,
+    name: 'Marseille',
+    zipCode: '13001',
+    latitude: 43.2965,
+    longitude: 5.3698,
+    inhabitants: 870000,
+    state: 'France'
+  },
+  {
+    id: 203,
+    name: 'Lyon',
+    zipCode: '69001',
+    latitude: 45.764,
+    longitude: 4.8357,
+    inhabitants: 515695,
+    state: 'France'
+  },
+  {
+    id: 204,
+    name: 'Toulouse',
+    zipCode: '31000',
+    latitude: 43.6047,
+    longitude: 1.4442,
+    inhabitants: 479553,
+    state: 'France'
+  },
+  {
+    id: 205,
+    name: 'Nice',
+    zipCode: '06000',
+    latitude: 43.7102,
+    longitude: 7.262,
+    inhabitants: 342295,
+    state: 'France'
+  },
+  {
+    id: 206,
+    name: 'Warsaw',
+    zipCode: '00-001',
+    latitude: 52.2297,
+    longitude: 21.0122,
+    inhabitants: 1794000,
+    state: 'Poland'
+  },
+  {
+    id: 207,
+    name: 'Krakow',
+    zipCode: '30-001',
+    latitude: 50.0647,
+    longitude: 19.945,
+    inhabitants: 779000,
+    state: 'Poland'
+  },
+  {
+    id: 208,
+    name: 'Wroclaw',
+    zipCode: '50-001',
+    latitude: 51.1079,
+    longitude: 17.0385,
+    inhabitants: 642687,
+    state: 'Poland'
+  },
+  {
+    id: 209,
+    name: 'Poznan',
+    zipCode: '60-001',
+    latitude: 52.4064,
+    longitude: 16.9252,
+    inhabitants: 534813,
+    state: 'Poland'
+  },
+  {
+    id: 210,
+    name: 'Gdansk',
+    zipCode: '80-001',
+    latitude: 54.352,
+    longitude: 18.6466,
+    inhabitants: 470907,
+    state: 'Poland'
+  },
+  {
+    id: 211,
+    name: 'Prague',
+    zipCode: '11000',
+    latitude: 50.0755,
+    longitude: 14.4378,
+    inhabitants: 1309000,
+    state: 'Czech Republic'
+  },
+  {
+    id: 212,
+    name: 'Brno',
+    zipCode: '60200',
+    latitude: 49.1951,
+    longitude: 16.6068,
+    inhabitants: 382405,
+    state: 'Czech Republic'
+  },
+  {
+    id: 213,
+    name: 'Ostrava',
+    zipCode: '70200',
+    latitude: 49.8209,
+    longitude: 18.2625,
+    inhabitants: 287968,
+    state: 'Czech Republic'
+  },
+  {
+    id: 214,
+    name: 'Plzen',
+    zipCode: '30100',
+    latitude: 49.7475,
+    longitude: 13.3776,
+    inhabitants: 175219,
+    state: 'Czech Republic'
+  },
+  {
+    id: 215,
+    name: 'Liberec',
+    zipCode: '46001',
+    latitude: 50.7671,
+    longitude: 15.0562,
+    inhabitants: 104445,
+    state: 'Czech Republic'
+  },
+  {
+    id: 216,
+    name: 'Vienna',
+    zipCode: '1010',
+    latitude: 48.2082,
+    longitude: 16.3738,
+    inhabitants: 1911000,
+    state: 'Austria'
+  },
+  {
+    id: 217,
+    name: 'Graz',
+    zipCode: '8010',
+    latitude: 47.0707,
+    longitude: 15.4395,
+    inhabitants: 291070,
+    state: 'Austria'
+  },
+  {
+    id: 218,
+    name: 'Linz',
+    zipCode: '4020',
+    latitude: 48.3069,
+    longitude: 14.2858,
+    inhabitants: 204846,
+    state: 'Austria'
+  },
+  {
+    id: 219,
+    name: 'Salzburg',
+    zipCode: '5020',
+    latitude: 47.8095,
+    longitude: 13.055,
+    inhabitants: 155031,
+    state: 'Austria'
+  },
+  {
+    id: 220,
+    name: 'Innsbruck',
+    zipCode: '6020',
+    latitude: 47.2692,
+    longitude: 11.4041,
+    inhabitants: 132493,
+    state: 'Austria'
+  },
+  {
+    id: 221,
+    name: 'Zurich',
+    zipCode: '8001',
+    latitude: 47.3769,
+    longitude: 8.5417,
+    inhabitants: 434008,
+    state: 'Switzerland'
+  },
+  {
+    id: 222,
+    name: 'Geneva',
+    zipCode: '1201',
+    latitude: 46.2044,
+    longitude: 6.1432,
+    inhabitants: 203856,
+    state: 'Switzerland'
+  },
+  {
+    id: 223,
+    name: 'Basel',
+    zipCode: '4001',
+    latitude: 47.5596,
+    longitude: 7.5886,
+    inhabitants: 178120,
+    state: 'Switzerland'
+  },
+  {
+    id: 224,
+    name: 'Bern',
+    zipCode: '3001',
+    latitude: 46.948,
+    longitude: 7.4474,
+    inhabitants: 133115,
+    state: 'Switzerland'
+  },
+  {
+    id: 225,
+    name: 'Lausanne',
+    zipCode: '1000',
+    latitude: 46.5197,
+    longitude: 6.6323,
+    inhabitants: 140202,
+    state: 'Switzerland'
+  },
+  {
+    id: 226,
+    name: 'Brussels',
+    zipCode: '1000',
+    latitude: 50.8503,
+    longitude: 4.3517,
+    inhabitants: 1208000,
+    state: 'Belgium'
+  },
+  {
+    id: 227,
+    name: 'Antwerp',
+    zipCode: '2000',
+    latitude: 51.2194,
+    longitude: 4.4025,
+    inhabitants: 529247,
+    state: 'Belgium'
+  },
+  {
+    id: 228,
+    name: 'Ghent',
+    zipCode: '9000',
+    latitude: 51.0543,
+    longitude: 3.7174,
+    inhabitants: 263700,
+    state: 'Belgium'
+  },
+  {
+    id: 229,
+    name: 'Charleroi',
+    zipCode: '6000',
+    latitude: 50.4108,
+    longitude: 4.4446,
+    inhabitants: 201816,
+    state: 'Belgium'
+  },
+  {
+    id: 230,
+    name: 'Liège',
+    zipCode: '4000',
+    latitude: 50.6326,
+    longitude: 5.5797,
+    inhabitants: 197355,
+    state: 'Belgium'
+  },
+  {
+    id: 231,
+    name: 'Amsterdam',
+    zipCode: '1012',
+    latitude: 52.3676,
+    longitude: 4.9041,
+    inhabitants: 872000,
+    state: 'Netherlands'
+  },
+  {
+    id: 232,
+    name: 'Rotterdam',
+    zipCode: '3011',
+    latitude: 51.9225,
+    longitude: 4.4792,
+    inhabitants: 651446,
+    state: 'Netherlands'
+  },
+  {
+    id: 233,
+    name: 'The Hague',
+    zipCode: '2511',
+    latitude: 52.0705,
+    longitude: 4.3007,
+    inhabitants: 545838,
+    state: 'Netherlands'
+  },
+  {
+    id: 234,
+    name: 'Utrecht',
+    zipCode: '3511',
+    latitude: 52.0907,
+    longitude: 5.1214,
+    inhabitants: 357179,
+    state: 'Netherlands'
+  },
+  {
+    id: 235,
+    name: 'Eindhoven',
+    zipCode: '5611',
+    latitude: 51.4416,
+    longitude: 5.4697,
+    inhabitants: 235707,
+    state: 'Netherlands'
+  },
+  {
+    id: 236,
+    name: 'Copenhagen',
+    zipCode: '1000',
+    latitude: 55.6761,
+    longitude: 12.5683,
+    inhabitants: 794000,
+    state: 'Denmark'
+  },
+  {
+    id: 237,
+    name: 'Aarhus',
+    zipCode: '8000',
+    latitude: 56.1629,
+    longitude: 10.2039,
+    inhabitants: 280000,
+    state: 'Denmark'
+  },
+  {
+    id: 238,
+    name: 'Odense',
+    zipCode: '5000',
+    latitude: 55.4038,
+    longitude: 10.4024,
+    inhabitants: 180760,
+    state: 'Denmark'
+  },
+  {
+    id: 239,
+    name: 'Luxembourg City',
+    zipCode: 'L-1111',
+    latitude: 49.6116,
+    longitude: 6.1319,
+    inhabitants: 122273,
+    state: 'Luxembourg'
+  },
+  {
+    id: 240,
+    name: 'Esch-sur-Alzette',
+    zipCode: 'L-4010',
+    latitude: 49.4958,
+    longitude: 5.9806,
+    inhabitants: 35300,
+    state: 'Luxembourg'
+  },
+  {
+    id: 241,
+    name: 'Differdange',
+    zipCode: 'L-4501',
+    latitude: 49.5242,
+    longitude: 5.8911,
+    inhabitants: 26300,
+    state: 'Luxembourg'
+  },
+  {
+    id: 242,
+    name: 'Dudelange',
+    zipCode: 'L-3401',
+    latitude: 49.4806,
+    longitude: 6.0817,
+    inhabitants: 20500,
+    state: 'Luxembourg'
+  },
+  {
+    id: 243,
+    name: 'Remich',
+    zipCode: 'L-5401',
+    latitude: 49.5456,
+    longitude: 6.3667,
+    inhabitants: 3400,
+    state: 'Luxembourg'
+  },
+  {
+    id: 244,
+    name: 'Thionville',
+    zipCode: '57100',
+    latitude: 49.3556,
+    longitude: 6.1681,
+    inhabitants: 41500,
+    state: 'France'
+  },
+  {
+    id: 245,
+    name: 'Metz',
+    zipCode: '57000',
+    latitude: 49.1193,
+    longitude: 6.1757,
+    inhabitants: 116581,
+    state: 'France'
+  },
+  {
+    id: 246,
+    name: 'Strasbourg',
+    zipCode: '67000',
+    latitude: 48.5734,
+    longitude: 7.7521,
+    inhabitants: 280966,
+    state: 'France'
+  },
+  {
+    id: 247,
+    name: 'Mulhouse',
+    zipCode: '68100',
+    latitude: 47.7508,
+    longitude: 7.3359,
+    inhabitants: 108942,
+    state: 'France'
+  },
+  {
+    id: 248,
+    name: 'Nancy',
+    zipCode: '54000',
+    latitude: 48.6921,
+    longitude: 6.1844,
+    inhabitants: 104286,
+    state: 'France'
+  },
+  {
+    id: 249,
+    name: 'Besançon',
+    zipCode: '25000',
+    latitude: 47.2378,
+    longitude: 6.0241,
+    inhabitants: 116775,
+    state: 'France'
+  },
+  {
+    id: 250,
+    name: 'Chalon-sur-Saône',
+    zipCode: '71100',
+    latitude: 46.7833,
+    longitude: 4.8556,
+    inhabitants: 45200,
+    state: 'France'
   }
 ]
