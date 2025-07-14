@@ -1,4 +1,4 @@
-import { CitySearch } from './city-search'
+import { CitySearch } from './CitySearch/CitySearch'
 
 function App() {
   return (
