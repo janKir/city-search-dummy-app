@@ -1,15 +1,18 @@
 import React, { useState, useMemo } from 'react'
 
 import { City } from './city.types'
-import { cities } from './cities.const'
 import { CitiesSearchField } from './CitiesSearchField'
 import { CitySearchHeader } from './CitySearchHeader'
 import { CitySearchResultsCount } from './CitySearchResultsCount'
 import { CitiesListWithPlaceholder } from './CitiesListWithPlaceholder'
+import { cities } from './cities.const'
+import { useCitiesDistances } from './useCitiesDistances'
 
 export function CitySearch() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCity, setSelectedCity] = useState<City>()
+
+  const distances = useCitiesDistances({ cities, selectedCity })
 
   const filteredCities = useMemo(() => {
     return cities.filter(
@@ -38,6 +41,7 @@ export function CitySearch() {
       <div className="mx-auto max-w-4xl space-y-6">
         <CitiesListWithPlaceholder
           cities={filteredCities}
+          distances={distances}
           selectedCity={selectedCity}
           setSelectedCity={setSelectedCity}
         />

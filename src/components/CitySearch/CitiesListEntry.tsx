@@ -1,12 +1,13 @@
 import { Hash, Navigation, Users } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card'
-import { City, CityWithDistance } from './city.types'
+import { City } from './city.types'
 import { formatNumber } from './utils/formatNumber'
 import { CityCoordinates } from './CityCoordinates'
 import React, { useRef } from 'react'
 
 interface CitiesListEntryProps {
-  city: City | CityWithDistance
+  city: City
+  distance?: number
   isSelected: boolean
   onSelect: (city: City) => void
   showDistance: boolean
@@ -14,6 +15,7 @@ interface CitiesListEntryProps {
 
 function CitiesListEntryMemo({
   city,
+  distance,
   isSelected,
   onSelect,
   showDistance
@@ -46,18 +48,14 @@ function CitiesListEntryMemo({
               </div>
             </div>
           </div>
-          {showDistance &&
-            'distance' in city &&
-            city.distance !== undefined && (
-              <div className="text-right">
-                <div className="flex items-center gap-1 text-sm font-medium">
-                  <Navigation className="size-4" />
-                  {city.distance === 0
-                    ? 'Selected'
-                    : `${city.distance?.toFixed(0)} km`}
-                </div>
+          {showDistance && distance !== undefined && (
+            <div className="text-right">
+              <div className="flex items-center gap-1 text-sm font-medium">
+                <Navigation className="size-4" />
+                {distance === 0 ? 'Selected' : `${distance?.toFixed(0)} km`}
               </div>
-            )}
+            </div>
+          )}
         </div>
       </CardHeader>
       <CardContent className="pt-0">
@@ -74,8 +72,7 @@ export const CitiesListEntry = React.memo(
   (prev, next) =>
     prev.city.latitude === next.city.latitude &&
     prev.city.longitude === next.city.longitude &&
-    (prev.city as CityWithDistance).distance ===
-      (next.city as CityWithDistance).distance &&
+    prev.distance === next.distance &&
     prev.isSelected === next.isSelected &&
     prev.onSelect === next.onSelect &&
     prev.showDistance === next.showDistance

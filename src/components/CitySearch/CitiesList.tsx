@@ -1,43 +1,28 @@
-import { useMemo } from 'react'
-import { City, CityWithDistance } from './city.types'
-import { calculateDistance } from './utils/calculateDistance'
+import { City } from './city.types'
 import { CitiesListEntry } from './CitiesListEntry'
+import { getCityCoordinateKey } from './utils/getCityCoordinateKey'
+import { Distances } from './distance.types'
 
 interface CitiesListProps {
   cities: City[]
+  distances: Distances
   selectedCity?: City
   setSelectedCity: (city: City) => void
 }
 
 export function CitiesList({
-  cities: cities,
+  cities,
+  distances,
   selectedCity,
   setSelectedCity
 }: CitiesListProps) {
-  const citiesWithDistance = useMemo((): City[] | CityWithDistance[] => {
-    if (!selectedCity) return cities
-
-    return cities.map<CityWithDistance>((city) => ({
-      ...city,
-      distance:
-        city.latitude === selectedCity.latitude &&
-        city.longitude === selectedCity.longitude
-          ? 0
-          : calculateDistance(
-              selectedCity.latitude,
-              selectedCity.longitude,
-              city.latitude,
-              city.longitude
-            )
-    }))
-  }, [cities, selectedCity])
-
   return (
     <div className="grid gap-4">
-      {citiesWithDistance.map((city) => (
+      {cities.map((city) => (
         <CitiesListEntry
           key={city.name + city.zipCode + city.state}
           city={city}
+          distance={distances[getCityCoordinateKey(city)]}
           isSelected={
             city.latitude === selectedCity?.latitude &&
             city.longitude === selectedCity?.longitude

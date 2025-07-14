@@ -1,15 +1,18 @@
 import { City } from './city.types'
 import { CitiesList } from './CitiesList'
 import { useRef } from 'react'
+import { Distances } from './distance.types'
 
 interface CitiesListWithPlaceholderProps {
   cities: City[]
+  distances: Distances
   selectedCity?: City
   setSelectedCity: (city: City) => void
 }
 
 export function CitiesListWithPlaceholder({
-  cities: cities,
+  cities,
+  distances,
   selectedCity,
   setSelectedCity
 }: CitiesListWithPlaceholderProps) {
@@ -29,6 +32,7 @@ export function CitiesListWithPlaceholder({
       {renderCount.current} renders
       <CitiesList
         cities={cities}
+        distances={distances}
         selectedCity={selectedCity}
         setSelectedCity={setSelectedCity}
       />

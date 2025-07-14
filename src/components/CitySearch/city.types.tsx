@@ -6,7 +6,3 @@ export interface City {
   inhabitants: number
   state: string
 }
-
-export interface CityWithDistance extends City {
-  distance: number
-}
