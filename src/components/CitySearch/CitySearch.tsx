@@ -27,7 +27,8 @@ export function CitySearch() {
     return filteredCities.map((city) => ({
       ...city,
       distance:
-        city.id === selectedCity.id
+        city.latitude === selectedCity.latitude &&
+        city.longitude === selectedCity.longitude
           ? 0
           : calculateDistance(
               selectedCity.latitude,
@@ -79,9 +80,10 @@ export function CitySearch() {
       <div className="grid gap-4">
         {citiesWithDistance.map((city) => (
           <Card
-            key={city.id}
+            key={city.name + city.zipCode + city.state}
             className={`cursor-pointer transition-all hover:shadow-md ${
-              selectedCity?.id === city.id
+              city.latitude === selectedCity?.latitude &&
+              city.longitude === selectedCity?.longitude
                 ? 'bg-blue-50 ring-2 ring-blue-500'
                 : ''
             }`}
