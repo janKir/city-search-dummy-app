@@ -21,21 +21,27 @@ export function CitySearch() {
   }, [searchTerm])
 
   return (
-    <div className="mx-auto w-full max-w-4xl space-y-6 p-4">
-      <CitySearchHeader selectedCity={selectedCity} />
+    <div className="w-full p-4">
+      <div className="sticky top-0 w-full bg-white pb-2">
+        <div className=" mx-auto max-w-4xl space-y-6">
+          <CitySearchHeader selectedCity={selectedCity} />
 
-      <CitiesSearchField
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-      />
+          <CitiesSearchField
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
+          />
 
-      <CitySearchResultsCount cities={filteredCities} />
+          <CitySearchResultsCount cities={filteredCities} />
+        </div>
+      </div>
 
-      <CitiesListWithPlaceholder
-        cities={filteredCities}
-        selectedCity={selectedCity}
-        setSelectedCity={setSelectedCity}
-      />
+      <div className="mx-auto max-w-4xl space-y-6">
+        <CitiesListWithPlaceholder
+          cities={filteredCities}
+          selectedCity={selectedCity}
+          setSelectedCity={setSelectedCity}
+        />
+      </div>
     </div>
   )
 }
