@@ -112,7 +112,7 @@ export function CitySearch() {
                         <Navigation className="size-4" />
                         {city.distance === 0
                           ? 'Selected'
-                          : `${city.distance?.toFixed(0)} mi`}
+                          : `${city.distance?.toFixed(0)} km`}
                       </div>
                     </div>
                   )}
