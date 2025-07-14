@@ -1350,5 +1350,455 @@ export const cities: City[] = [
     longitude: -3.7038,
     inhabitants: 3223000,
     state: 'Spain'
+  },
+  {
+    id: 151,
+    name: 'Hamburg',
+    zipCode: '20095',
+    latitude: 53.5511,
+    longitude: 9.9937,
+    inhabitants: 1841000,
+    state: 'Germany'
+  },
+  {
+    id: 152,
+    name: 'Munich',
+    zipCode: '80331',
+    latitude: 48.1351,
+    longitude: 11.582,
+    inhabitants: 1472000,
+    state: 'Germany'
+  },
+  {
+    id: 153,
+    name: 'Frankfurt am Main',
+    zipCode: '60311',
+    latitude: 50.1109,
+    longitude: 8.6821,
+    inhabitants: 753000,
+    state: 'Germany'
+  },
+  {
+    id: 154,
+    name: 'Stuttgart',
+    zipCode: '70173',
+    latitude: 48.7758,
+    longitude: 9.1829,
+    inhabitants: 635911,
+    state: 'Germany'
+  },
+  {
+    id: 155,
+    name: 'Düsseldorf',
+    zipCode: '40213',
+    latitude: 51.2277,
+    longitude: 6.7735,
+    inhabitants: 619294,
+    state: 'Germany'
+  },
+  {
+    id: 156,
+    name: 'Dortmund',
+    zipCode: '44135',
+    latitude: 51.5136,
+    longitude: 7.4653,
+    inhabitants: 587696,
+    state: 'Germany'
+  },
+  {
+    id: 157,
+    name: 'Essen',
+    zipCode: '45127',
+    latitude: 51.4556,
+    longitude: 7.0116,
+    inhabitants: 583109,
+    state: 'Germany'
+  },
+  {
+    id: 158,
+    name: 'Leipzig',
+    zipCode: '04109',
+    latitude: 51.3397,
+    longitude: 12.3731,
+    inhabitants: 593145,
+    state: 'Germany'
+  },
+  {
+    id: 159,
+    name: 'Bremen',
+    zipCode: '28195',
+    latitude: 53.0793,
+    longitude: 8.8017,
+    inhabitants: 569352,
+    state: 'Germany'
+  },
+  {
+    id: 160,
+    name: 'Dresden',
+    zipCode: '01067',
+    latitude: 51.0504,
+    longitude: 13.7373,
+    inhabitants: 556780,
+    state: 'Germany'
+  },
+  {
+    id: 161,
+    name: 'Hanover',
+    zipCode: '30159',
+    latitude: 52.3759,
+    longitude: 9.732,
+    inhabitants: 538068,
+    state: 'Germany'
+  },
+  {
+    id: 162,
+    name: 'Nuremberg',
+    zipCode: '90402',
+    latitude: 49.4521,
+    longitude: 11.0767,
+    inhabitants: 515543,
+    state: 'Germany'
+  },
+  {
+    id: 163,
+    name: 'Duisburg',
+    zipCode: '47051',
+    latitude: 51.4344,
+    longitude: 6.7623,
+    inhabitants: 498590,
+    state: 'Germany'
+  },
+  {
+    id: 164,
+    name: 'Bochum',
+    zipCode: '44787',
+    latitude: 51.4818,
+    longitude: 7.2162,
+    inhabitants: 364920,
+    state: 'Germany'
+  },
+  {
+    id: 165,
+    name: 'Wuppertal',
+    zipCode: '42103',
+    latitude: 51.2562,
+    longitude: 7.1508,
+    inhabitants: 355100,
+    state: 'Germany'
+  },
+  {
+    id: 166,
+    name: 'Bielefeld',
+    zipCode: '33602',
+    latitude: 52.0302,
+    longitude: 8.5325,
+    inhabitants: 334195,
+    state: 'Germany'
+  },
+  {
+    id: 167,
+    name: 'Bonn',
+    zipCode: '53111',
+    latitude: 50.7374,
+    longitude: 7.0982,
+    inhabitants: 329673,
+    state: 'Germany'
+  },
+  {
+    id: 168,
+    name: 'Münster',
+    zipCode: '48143',
+    latitude: 51.9607,
+    longitude: 7.6261,
+    inhabitants: 315293,
+    state: 'Germany'
+  },
+  {
+    id: 169,
+    name: 'Karlsruhe',
+    zipCode: '76133',
+    latitude: 49.0069,
+    longitude: 8.4037,
+    inhabitants: 313092,
+    state: 'Germany'
+  },
+  {
+    id: 170,
+    name: 'Mannheim',
+    zipCode: '68159',
+    latitude: 49.4875,
+    longitude: 8.466,
+    inhabitants: 309370,
+    state: 'Germany'
+  },
+  {
+    id: 171,
+    name: 'Augsburg',
+    zipCode: '86150',
+    latitude: 48.3715,
+    longitude: 10.8985,
+    inhabitants: 295135,
+    state: 'Germany'
+  },
+  {
+    id: 172,
+    name: 'Wiesbaden',
+    zipCode: '65183',
+    latitude: 50.0826,
+    longitude: 8.24,
+    inhabitants: 278342,
+    state: 'Germany'
+  },
+  {
+    id: 173,
+    name: 'Gelsenkirchen',
+    zipCode: '45879',
+    latitude: 51.5177,
+    longitude: 7.0857,
+    inhabitants: 260368,
+    state: 'Germany'
+  },
+  {
+    id: 174,
+    name: 'Mönchengladbach',
+    zipCode: '41061',
+    latitude: 51.1805,
+    longitude: 6.4423,
+    inhabitants: 261454,
+    state: 'Germany'
+  },
+  {
+    id: 175,
+    name: 'Braunschweig',
+    zipCode: '38100',
+    latitude: 52.2689,
+    longitude: 10.5268,
+    inhabitants: 248292,
+    state: 'Germany'
+  },
+  {
+    id: 176,
+    name: 'Chemnitz',
+    zipCode: '09111',
+    latitude: 50.8278,
+    longitude: 12.9214,
+    inhabitants: 247237,
+    state: 'Germany'
+  },
+  {
+    id: 177,
+    name: 'Kiel',
+    zipCode: '24103',
+    latitude: 54.3233,
+    longitude: 10.1228,
+    inhabitants: 246794,
+    state: 'Germany'
+  },
+  {
+    id: 178,
+    name: 'Aachen',
+    zipCode: '52062',
+    latitude: 50.7753,
+    longitude: 6.0839,
+    inhabitants: 247380,
+    state: 'Germany'
+  },
+  {
+    id: 179,
+    name: 'Halle (Saale)',
+    zipCode: '06108',
+    latitude: 51.4821,
+    longitude: 11.9698,
+    inhabitants: 239257,
+    state: 'Germany'
+  },
+  {
+    id: 180,
+    name: 'Magdeburg',
+    zipCode: '39104',
+    latitude: 52.1205,
+    longitude: 11.6276,
+    inhabitants: 238697,
+    state: 'Germany'
+  },
+  {
+    id: 181,
+    name: 'Freiburg im Breisgau',
+    zipCode: '79098',
+    latitude: 47.999,
+    longitude: 7.8421,
+    inhabitants: 230241,
+    state: 'Germany'
+  },
+  {
+    id: 182,
+    name: 'Krefeld',
+    zipCode: '47798',
+    latitude: 51.3382,
+    longitude: 6.5646,
+    inhabitants: 227020,
+    state: 'Germany'
+  },
+  {
+    id: 183,
+    name: 'Lübeck',
+    zipCode: '23552',
+    latitude: 53.8655,
+    longitude: 10.6866,
+    inhabitants: 216253,
+    state: 'Germany'
+  },
+  {
+    id: 184,
+    name: 'Oberhausen',
+    zipCode: '46045',
+    latitude: 51.4964,
+    longitude: 6.8638,
+    inhabitants: 210829,
+    state: 'Germany'
+  },
+  {
+    id: 185,
+    name: 'Erfurt',
+    zipCode: '99084',
+    latitude: 50.9787,
+    longitude: 11.0328,
+    inhabitants: 213699,
+    state: 'Germany'
+  },
+  {
+    id: 186,
+    name: 'Rostock',
+    zipCode: '18055',
+    latitude: 54.0887,
+    longitude: 12.1405,
+    inhabitants: 208886,
+    state: 'Germany'
+  },
+  {
+    id: 187,
+    name: 'Mainz',
+    zipCode: '55116',
+    latitude: 50.0006,
+    longitude: 8.2711,
+    inhabitants: 217118,
+    state: 'Germany'
+  },
+  {
+    id: 188,
+    name: 'Saarbrücken',
+    zipCode: '66111',
+    latitude: 49.2402,
+    longitude: 6.9969,
+    inhabitants: 180374,
+    state: 'Germany'
+  },
+  {
+    id: 189,
+    name: 'Hagen',
+    zipCode: '58095',
+    latitude: 51.3671,
+    longitude: 7.4633,
+    inhabitants: 188686,
+    state: 'Germany'
+  },
+  {
+    id: 190,
+    name: 'Potsdam',
+    zipCode: '14467',
+    latitude: 52.4009,
+    longitude: 13.0591,
+    inhabitants: 183154,
+    state: 'Germany'
+  },
+  {
+    id: 191,
+    name: 'Würzburg',
+    zipCode: '97070',
+    latitude: 49.7944,
+    longitude: 9.9296,
+    inhabitants: 127934,
+    state: 'Germany'
+  },
+  {
+    id: 192,
+    name: 'Ingolstadt',
+    zipCode: '85049',
+    latitude: 48.7651,
+    longitude: 11.4237,
+    inhabitants: 136981,
+    state: 'Germany'
+  },
+  {
+    id: 193,
+    name: 'Ulm',
+    zipCode: '89073',
+    latitude: 48.4011,
+    longitude: 9.9876,
+    inhabitants: 126790,
+    state: 'Germany'
+  },
+  {
+    id: 194,
+    name: 'Heilbronn',
+    zipCode: '74072',
+    latitude: 49.1406,
+    longitude: 9.2203,
+    inhabitants: 126592,
+    state: 'Germany'
+  },
+  {
+    id: 195,
+    name: 'Pforzheim',
+    zipCode: '75172',
+    latitude: 48.8922,
+    longitude: 8.6947,
+    inhabitants: 125957,
+    state: 'Germany'
+  },
+  {
+    id: 196,
+    name: 'Reutlingen',
+    zipCode: '72764',
+    latitude: 48.4914,
+    longitude: 9.2043,
+    inhabitants: 115966,
+    state: 'Germany'
+  },
+  {
+    id: 197,
+    name: 'Fürth',
+    zipCode: '90762',
+    latitude: 49.4774,
+    longitude: 10.9896,
+    inhabitants: 128497,
+    state: 'Germany'
+  },
+  {
+    id: 198,
+    name: 'Offenbach am Main',
+    zipCode: '63065',
+    latitude: 50.1046,
+    longitude: 8.7665,
+    inhabitants: 130280,
+    state: 'Germany'
+  },
+  {
+    id: 199,
+    name: 'Villingen-Schwenningen',
+    zipCode: '78050',
+    latitude: 48.0623,
+    longitude: 8.4936,
+    inhabitants: 85505,
+    state: 'Germany'
+  },
+  {
+    id: 200,
+    name: 'Konstanz',
+    zipCode: '78462',
+    latitude: 47.6779,
+    longitude: 9.1756,
+    inhabitants: 84705,
+    state: 'Germany'
   }
 ]
