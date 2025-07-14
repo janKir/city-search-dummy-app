@@ -5,5 +5,8 @@ export interface City {
   longitude: number
   inhabitants: number
   state: string
-  distance?: number
+}
+
+export interface CityWithDistance extends City {
+  distance: number
 }
