@@ -363,7 +363,7 @@ export const cities: City[] = [
   },
   {
     id: 41,
-    name: 'Frankfurt',
+    name: 'Frankfurt am Main',
     zipCode: '60311',
     latitude: 50.1109,
     longitude: 8.6821,
@@ -1334,15 +1334,6 @@ export const cities: City[] = [
     state: 'Portugal'
   },
   {
-    id: 149,
-    name: 'Lisbon',
-    zipCode: '1100-001',
-    latitude: 38.7223,
-    longitude: -9.1393,
-    inhabitants: 545000,
-    state: 'Portugal'
-  },
-  {
     id: 150,
     name: 'Madrid',
     zipCode: '28001',
@@ -1350,33 +1341,6 @@ export const cities: City[] = [
     longitude: -3.7038,
     inhabitants: 3223000,
     state: 'Spain'
-  },
-  {
-    id: 151,
-    name: 'Hamburg',
-    zipCode: '20095',
-    latitude: 53.5511,
-    longitude: 9.9937,
-    inhabitants: 1841000,
-    state: 'Germany'
-  },
-  {
-    id: 152,
-    name: 'Munich',
-    zipCode: '80331',
-    latitude: 48.1351,
-    longitude: 11.582,
-    inhabitants: 1472000,
-    state: 'Germany'
-  },
-  {
-    id: 153,
-    name: 'Frankfurt am Main',
-    zipCode: '60311',
-    latitude: 50.1109,
-    longitude: 8.6821,
-    inhabitants: 753000,
-    state: 'Germany'
   },
   {
     id: 154,
@@ -1802,24 +1766,6 @@ export const cities: City[] = [
     state: 'Germany'
   },
   {
-    id: 201,
-    name: 'Paris',
-    zipCode: '75000',
-    latitude: 48.8566,
-    longitude: 2.3522,
-    inhabitants: 2148000,
-    state: 'France'
-  },
-  {
-    id: 202,
-    name: 'Marseille',
-    zipCode: '13001',
-    latitude: 43.2965,
-    longitude: 5.3698,
-    inhabitants: 870000,
-    state: 'France'
-  },
-  {
     id: 203,
     name: 'Lyon',
     zipCode: '69001',
@@ -1847,24 +1793,6 @@ export const cities: City[] = [
     state: 'France'
   },
   {
-    id: 206,
-    name: 'Warsaw',
-    zipCode: '00-001',
-    latitude: 52.2297,
-    longitude: 21.0122,
-    inhabitants: 1794000,
-    state: 'Poland'
-  },
-  {
-    id: 207,
-    name: 'Krakow',
-    zipCode: '30-001',
-    latitude: 50.0647,
-    longitude: 19.945,
-    inhabitants: 779000,
-    state: 'Poland'
-  },
-  {
     id: 208,
     name: 'Wroclaw',
     zipCode: '50-001',
@@ -1890,15 +1818,6 @@ export const cities: City[] = [
     longitude: 18.6466,
     inhabitants: 470907,
     state: 'Poland'
-  },
-  {
-    id: 211,
-    name: 'Prague',
-    zipCode: '11000',
-    latitude: 50.0755,
-    longitude: 14.4378,
-    inhabitants: 1309000,
-    state: 'Czech Republic'
   },
   {
     id: 212,
@@ -1935,15 +1854,6 @@ export const cities: City[] = [
     longitude: 15.0562,
     inhabitants: 104445,
     state: 'Czech Republic'
-  },
-  {
-    id: 216,
-    name: 'Vienna',
-    zipCode: '1010',
-    latitude: 48.2082,
-    longitude: 16.3738,
-    inhabitants: 1911000,
-    state: 'Austria'
   },
   {
     id: 217,
