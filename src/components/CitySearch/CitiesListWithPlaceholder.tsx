@@ -1,5 +1,6 @@
 import { City } from './city.types'
 import { CitiesList } from './CitiesList'
+import { useRef } from 'react'
 
 interface CitiesListWithPlaceholderProps {
   cities: City[]
@@ -12,6 +13,9 @@ export function CitiesListWithPlaceholder({
   selectedCity,
   setSelectedCity
 }: CitiesListWithPlaceholderProps) {
+  const renderCount = useRef(0)
+  renderCount.current += 1
+
   if (cities.length === 0) {
     return (
       <div className="text-muted-foreground py-8 text-center">
@@ -21,10 +25,13 @@ export function CitiesListWithPlaceholder({
   }
 
   return (
-    <CitiesList
-      cities={cities}
-      selectedCity={selectedCity}
-      setSelectedCity={setSelectedCity}
-    />
+    <div>
+      {renderCount.current} renders
+      <CitiesList
+        cities={cities}
+        selectedCity={selectedCity}
+        setSelectedCity={setSelectedCity}
+      />
+    </div>
   )
 }

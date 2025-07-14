@@ -28,7 +28,7 @@ export function CitySearch() {
 
           <CitiesSearchField
             searchTerm={searchTerm}
-            setSearchTerm={setSearchTerm}
+            onChangeSearch={setSearchTerm}
           />
 
           <CitySearchResultsCount cities={filteredCities} />
