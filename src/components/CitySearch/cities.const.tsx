@@ -143,7 +143,7 @@ export const cities: City[] = [
     latitude: 51.5074,
     longitude: -0.1278,
     inhabitants: 8982000,
-    state: 'ENG'
+    state: 'United Kingdom'
   },
   {
     id: 17,
@@ -152,7 +152,7 @@ export const cities: City[] = [
     latitude: 52.52,
     longitude: 13.405,
     inhabitants: 3769000,
-    state: 'BE'
+    state: 'Germany'
   },
   {
     id: 18,
@@ -161,7 +161,7 @@ export const cities: City[] = [
     latitude: 40.4168,
     longitude: -3.7038,
     inhabitants: 3223000,
-    state: 'MD'
+    state: 'Spain'
   },
   {
     id: 19,
@@ -170,7 +170,7 @@ export const cities: City[] = [
     latitude: 41.9028,
     longitude: 12.4964,
     inhabitants: 2873000,
-    state: 'LAZ'
+    state: 'Italy'
   },
   {
     id: 20,
@@ -179,7 +179,7 @@ export const cities: City[] = [
     latitude: 48.8566,
     longitude: 2.3522,
     inhabitants: 2148000,
-    state: 'IDF'
+    state: 'France'
   },
   {
     id: 21,
@@ -188,7 +188,7 @@ export const cities: City[] = [
     latitude: 48.2082,
     longitude: 16.3738,
     inhabitants: 1911000,
-    state: 'VIE'
+    state: 'Austria'
   },
   {
     id: 22,
@@ -197,7 +197,7 @@ export const cities: City[] = [
     latitude: 44.4268,
     longitude: 26.1025,
     inhabitants: 1794000,
-    state: 'B'
+    state: 'Romania'
   },
   {
     id: 23,
@@ -206,7 +206,7 @@ export const cities: City[] = [
     latitude: 53.5511,
     longitude: 9.9937,
     inhabitants: 1841000,
-    state: 'HH'
+    state: 'Germany'
   },
   {
     id: 24,
@@ -215,7 +215,7 @@ export const cities: City[] = [
     latitude: 47.4979,
     longitude: 19.0402,
     inhabitants: 1752000,
-    state: 'BU'
+    state: 'Hungary'
   },
   {
     id: 25,
@@ -224,7 +224,7 @@ export const cities: City[] = [
     latitude: 52.2297,
     longitude: 21.0122,
     inhabitants: 1794000,
-    state: 'MZ'
+    state: 'Poland'
   },
   {
     id: 26,
@@ -233,7 +233,7 @@ export const cities: City[] = [
     latitude: 41.3851,
     longitude: 2.1734,
     inhabitants: 1620000,
-    state: 'CAT'
+    state: 'Spain'
   },
   {
     id: 27,
@@ -242,7 +242,7 @@ export const cities: City[] = [
     latitude: 48.1351,
     longitude: 11.582,
     inhabitants: 1472000,
-    state: 'BY'
+    state: 'Germany'
   },
   {
     id: 28,
@@ -251,7 +251,7 @@ export const cities: City[] = [
     latitude: 45.4642,
     longitude: 9.19,
     inhabitants: 1379000,
-    state: 'LOM'
+    state: 'Italy'
   },
   {
     id: 29,
@@ -260,7 +260,7 @@ export const cities: City[] = [
     latitude: 50.0755,
     longitude: 14.4378,
     inhabitants: 1309000,
-    state: 'PR'
+    state: 'Czech Republic'
   },
   {
     id: 30,
@@ -269,7 +269,7 @@ export const cities: City[] = [
     latitude: 42.6977,
     longitude: 23.3219,
     inhabitants: 1278000,
-    state: 'SOF'
+    state: 'Bulgaria'
   },
   {
     id: 31,
@@ -278,7 +278,7 @@ export const cities: City[] = [
     latitude: 50.8503,
     longitude: 4.3517,
     inhabitants: 1208000,
-    state: 'BRU'
+    state: 'Belgium'
   },
   {
     id: 32,
@@ -287,7 +287,7 @@ export const cities: City[] = [
     latitude: 52.4862,
     longitude: -1.8904,
     inhabitants: 1137000,
-    state: 'ENG'
+    state: 'United Kingdom'
   },
   {
     id: 33,
@@ -296,7 +296,7 @@ export const cities: City[] = [
     latitude: 50.9375,
     longitude: 6.9603,
     inhabitants: 1086000,
-    state: 'NW'
+    state: 'Germany'
   },
   {
     id: 34,
@@ -305,7 +305,7 @@ export const cities: City[] = [
     latitude: 40.8518,
     longitude: 14.2681,
     inhabitants: 967000,
-    state: 'CAM'
+    state: 'Italy'
   },
   {
     id: 35,
@@ -314,7 +314,7 @@ export const cities: City[] = [
     latitude: 59.3293,
     longitude: 18.0686,
     inhabitants: 975000,
-    state: 'STO'
+    state: 'Sweden'
   },
   {
     id: 36,
@@ -323,7 +323,7 @@ export const cities: City[] = [
     latitude: 43.2965,
     longitude: 5.3698,
     inhabitants: 870000,
-    state: 'PAC'
+    state: 'France'
   },
   {
     id: 37,
@@ -332,7 +332,7 @@ export const cities: City[] = [
     latitude: 52.3676,
     longitude: 4.9041,
     inhabitants: 872000,
-    state: 'NH'
+    state: 'Netherlands'
   },
   {
     id: 38,
@@ -341,7 +341,7 @@ export const cities: City[] = [
     latitude: 45.815,
     longitude: 15.9819,
     inhabitants: 806000,
-    state: 'ZAG'
+    state: 'Croatia'
   },
   {
     id: 39,
@@ -350,7 +350,7 @@ export const cities: City[] = [
     latitude: 39.4699,
     longitude: -0.3763,
     inhabitants: 792000,
-    state: 'VAL'
+    state: 'Spain'
   },
   {
     id: 40,
@@ -359,7 +359,7 @@ export const cities: City[] = [
     latitude: 50.0647,
     longitude: 19.945,
     inhabitants: 779000,
-    state: 'MA'
+    state: 'Poland'
   },
   {
     id: 41,
@@ -368,7 +368,7 @@ export const cities: City[] = [
     latitude: 50.1109,
     longitude: 8.6821,
     inhabitants: 753000,
-    state: 'HE'
+    state: 'Germany'
   },
   {
     id: 42,
@@ -377,7 +377,7 @@ export const cities: City[] = [
     latitude: 38.1157,
     longitude: 13.3615,
     inhabitants: 657000,
-    state: 'SIC'
+    state: 'Italy'
   },
   {
     id: 43,
@@ -386,7 +386,7 @@ export const cities: City[] = [
     latitude: 45.0703,
     longitude: 7.6869,
     inhabitants: 870000,
-    state: 'PIE'
+    state: 'Italy'
   },
   {
     id: 44,
@@ -395,7 +395,7 @@ export const cities: City[] = [
     latitude: 37.9838,
     longitude: 23.7275,
     inhabitants: 664000,
-    state: 'AT'
+    state: 'Greece'
   },
   {
     id: 45,
@@ -404,7 +404,7 @@ export const cities: City[] = [
     latitude: 38.7223,
     longitude: -9.1393,
     inhabitants: 545000,
-    state: 'LIS'
+    state: 'Portugal'
   },
   {
     id: 46,
@@ -413,7 +413,7 @@ export const cities: City[] = [
     latitude: 60.1699,
     longitude: 24.9384,
     inhabitants: 655000,
-    state: 'HEL'
+    state: 'Finland'
   },
   {
     id: 47,
@@ -422,7 +422,7 @@ export const cities: City[] = [
     latitude: 55.6761,
     longitude: 12.5683,
     inhabitants: 794000,
-    state: 'CPH'
+    state: 'Denmark'
   },
   {
     id: 48,
@@ -431,7 +431,7 @@ export const cities: City[] = [
     latitude: 53.3498,
     longitude: -6.2603,
     inhabitants: 554000,
-    state: 'DUB'
+    state: 'Ireland'
   },
   {
     id: 49,
@@ -440,7 +440,7 @@ export const cities: City[] = [
     latitude: 59.9139,
     longitude: 10.7522,
     inhabitants: 697000,
-    state: 'OSL'
+    state: 'Norway'
   },
   {
     id: 50,
@@ -449,6 +449,6 @@ export const cities: City[] = [
     latitude: 56.9496,
     longitude: 24.1052,
     inhabitants: 632000,
-    state: 'RIG'
+    state: 'Latvia'
   }
 ]
