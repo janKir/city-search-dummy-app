@@ -5,19 +5,19 @@ export function maybeMemo<P extends object>(
   propsAreEqual?: (prevProps: Readonly<P>, nextProps: Readonly<P>) => boolean
 ) {
   if (import.meta.env.VITE_DISABLE_MEMOIZATION === 'true') {
-    return React.memo(Component, propsAreEqual)
+    return Component
   }
 
-  return Component
+  return React.memo(Component, propsAreEqual)
 }
 
 export function useMaybeMemo<T>(factory: () => T, deps: DependencyList) {
   if (import.meta.env.VITE_DISABLE_MEMOIZATION === 'true') {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    return React.useMemo(factory, deps)
+    return factory()
   }
 
-  return factory()
+  // eslint-disable-next-line react-hooks/rules-of-hooks, react-hooks/exhaustive-deps
+  return React.useMemo(factory, deps)
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-types
@@ -26,9 +26,9 @@ export function useMaybeCallback<T extends Function>(
   deps: DependencyList
 ) {
   if (import.meta.env.VITE_DISABLE_MEMOIZATION === 'true') {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    return React.useCallback(callback, deps)
+    return callback
   }
 
-  return callback
+  // eslint-disable-next-line react-hooks/rules-of-hooks, react-hooks/exhaustive-deps
+  return React.useCallback(callback, deps)
 }

@@ -29,7 +29,7 @@ export function CitiesListWithPlaceholder({
 
   return (
     <div>
-      {renderCount.current} renders
+      {renderCount.current} renders (CitiesListWithPlaceholder)
       <CitiesList
         cities={cities}
         distances={distances}

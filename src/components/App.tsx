@@ -1,4 +1,4 @@
-import { CitySearch } from './CitySearch/CitySearch'
+import { CitySearchWrapper } from './CitySearch/CitySearchWrapper'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
           className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8"
           id="app-container"
         >
-          <CitySearch />
+          <CitySearchWrapper />
         </div>
       </div>
     </div>

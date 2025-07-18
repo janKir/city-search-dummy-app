@@ -9,10 +9,12 @@ import { cities } from './cities.const'
 import { useCitiesDistances } from './useCitiesDistances'
 import { Background } from './background/Background'
 import { useMaybeMemo } from '@/lib/maybe-memoize'
+import { useScrollY } from './ScrollYContext'
 
 export function CitySearch() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCity, setSelectedCity] = useState<City>()
+  useScrollY()
 
   const distances = useCitiesDistances({ cities, selectedCity })
 
