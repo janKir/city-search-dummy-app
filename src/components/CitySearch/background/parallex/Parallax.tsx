@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
-import { WorldMapBackground } from './WorldMapBackground'
-import { UrbanSilhouettes } from './UrbanSilhuettes'
+import { ParallaxWorldMapBackground } from './ParallaxWorldMapBackground'
+import { ParallaxUrbanSilhouettes } from './ParallaxUrbanSilhuettes'
 
 interface ParallaxProps {
   className?: string
@@ -34,9 +34,13 @@ export function Parallax({ className }: ParallaxProps) {
 
   return (
     <div className={className}>
-      <WorldMapBackground scrollY={scrollY} offset={200} factor={0.02} />
+      <ParallaxWorldMapBackground
+        scrollY={scrollY}
+        offset={200}
+        factor={0.02}
+      />
 
-      <UrbanSilhouettes scrollY={scrollY} offset={200} factor={0.2} />
+      <ParallaxUrbanSilhouettes scrollY={scrollY} offset={200} factor={0.2} />
     </div>
   )
 }

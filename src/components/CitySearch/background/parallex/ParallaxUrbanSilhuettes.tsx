@@ -25,7 +25,7 @@ const urbanTypesList = Object.keys(urbanTypes) as UrbanType[]
 
 const baseWidth = 200
 
-export function UrbanSilhouettes({
+export function ParallaxUrbanSilhouettes({
   scrollY,
   factor,
   offset = 0

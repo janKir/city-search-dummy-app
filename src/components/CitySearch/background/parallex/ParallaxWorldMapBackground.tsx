@@ -1,7 +1,7 @@
 import worldMapSilhouette from '@/assets/world-map-silhouette.svg'
 import { ParallaxItemProps } from './types'
 
-export function WorldMapBackground({
+export function ParallaxWorldMapBackground({
   scrollY,
   factor,
   offset = 0

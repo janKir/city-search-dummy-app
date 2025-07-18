@@ -7,7 +7,7 @@ import { CitySearchResultsCount } from './CitySearchResultsCount'
 import { CitiesListWithPlaceholder } from './CitiesListWithPlaceholder'
 import { cities } from './cities.const'
 import { useCitiesDistances } from './useCitiesDistances'
-import { Parallax } from './parallex/Parallax'
+import { Background } from './background/Background'
 
 export function CitySearch() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -26,7 +26,7 @@ export function CitySearch() {
 
   return (
     <div className="z-10 w-full p-4">
-      <Parallax className="relative z-10" />
+      <Background className="z-10" />
       <div className="sticky top-0 z-50 w-full bg-white pb-2">
         <div
           className="mx-auto max-w-4xl space-y-6"
