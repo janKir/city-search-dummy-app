@@ -26,8 +26,8 @@ function CitiesListEntryMemo({
   return (
     <Card
       key={city.name + city.zipCode + city.state}
-      className={`cursor-pointer transition-all hover:shadow-md ${
-        isSelected ? 'bg-blue-50 ring-2 ring-blue-500' : ''
+      className={`cursor-pointer transition-all duration-500 hover:shadow-md ${
+        isSelected ? 'bg-blue-50 ring-2 ring-blue-500' : 'bg-white/50'
       }`}
       onClick={() => onSelect(city)}
     >
@@ -37,7 +37,7 @@ function CitiesListEntryMemo({
             <CardTitle className="text-xl">
               {city.name}, {city.state} ({renderCount.current} renders)
             </CardTitle>
-            <div className="text-muted-foreground mt-2 flex items-center gap-4 text-sm">
+            <div className="mt-2 flex items-center gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-1">
                 <Hash className="size-4" />
                 {city.zipCode}
@@ -59,7 +59,7 @@ function CitiesListEntryMemo({
         </div>
       </CardHeader>
       <CardContent className="pt-0">
-        <div className="text-muted-foreground text-sm">
+        <div className="text-sm text-muted-foreground">
           <CityCoordinates city={city} />
         </div>
       </CardContent>

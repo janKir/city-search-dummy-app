@@ -7,6 +7,7 @@ import { CitySearchResultsCount } from './CitySearchResultsCount'
 import { CitiesListWithPlaceholder } from './CitiesListWithPlaceholder'
 import { cities } from './cities.const'
 import { useCitiesDistances } from './useCitiesDistances'
+import { Parallax } from './parallex/Parallax'
 
 export function CitySearch() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -24,9 +25,13 @@ export function CitySearch() {
   }, [searchTerm])
 
   return (
-    <div className="w-full p-4">
-      <div className="sticky top-0 w-full bg-white pb-2">
-        <div className=" mx-auto max-w-4xl space-y-6">
+    <div className="z-10 w-full p-4">
+      <Parallax className="relative z-10" />
+      <div className="sticky top-0 z-50 w-full bg-white pb-2">
+        <div
+          className="mx-auto max-w-4xl space-y-6"
+          id="city_search_content_container"
+        >
           <CitySearchHeader selectedCity={selectedCity} />
 
           <CitiesSearchField
@@ -38,7 +43,7 @@ export function CitySearch() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl space-y-6">
+      <div className="relative z-40 mx-auto max-w-4xl space-y-6">
         <CitiesListWithPlaceholder
           cities={filteredCities}
           distances={distances}
