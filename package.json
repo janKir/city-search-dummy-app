@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "vite",
+    "tsc": "tsc",
     "build": "tsc && vite build",
     "build:good": "npm run build -- --mode good",
     "build:bad": "npm run build -- --mode bad",
