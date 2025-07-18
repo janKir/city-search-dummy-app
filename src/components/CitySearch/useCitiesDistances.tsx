@@ -1,8 +1,8 @@
-import React from 'react'
 import { City } from './city.types'
 import { Distances } from './distance.types'
 import { getCityCoordinateKey } from './utils/getCityCoordinateKey'
 import { calculateDistance } from './utils/calculateDistance'
+import { useMaybeMemo } from '@/lib/maybe-memoize'
 
 interface UseCitiesDistancesParams {
   cities: City[]
@@ -13,7 +13,7 @@ export function useCitiesDistances({
   cities,
   selectedCity
 }: UseCitiesDistancesParams): Distances {
-  return React.useMemo(() => {
+  return useMaybeMemo(() => {
     if (!selectedCity) return {}
 
     return cities.reduce((prev, city): Distances => {

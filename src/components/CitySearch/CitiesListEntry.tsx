@@ -1,9 +1,10 @@
+import React, { useRef } from 'react'
 import { Hash, Navigation, Users } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card'
 import { City } from './city.types'
 import { formatNumber } from './utils/formatNumber'
 import { CityCoordinates } from './CityCoordinates'
-import React, { useRef } from 'react'
+import { maybeMemo } from '@/lib/maybe-memoize'
 
 interface CitiesListEntryProps {
   city: City
@@ -67,7 +68,7 @@ function CitiesListEntryMemo({
   )
 }
 
-export const CitiesListEntry = React.memo(
+export const CitiesListEntry = maybeMemo(
   CitiesListEntryMemo,
   (prev, next) =>
     prev.city.latitude === next.city.latitude &&

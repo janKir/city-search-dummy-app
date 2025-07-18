@@ -21,7 +21,7 @@ export function CitiesListWithPlaceholder({
 
   if (cities.length === 0) {
     return (
-      <div className="text-muted-foreground py-8 text-center">
+      <div className="py-8 text-center text-muted-foreground">
         No cities found matching your search.
       </div>
     )

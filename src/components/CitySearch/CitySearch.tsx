@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState } from 'react'
 
 import { City } from './city.types'
 import { CitiesSearchField } from './CitiesSearchField'
@@ -8,6 +8,7 @@ import { CitiesListWithPlaceholder } from './CitiesListWithPlaceholder'
 import { cities } from './cities.const'
 import { useCitiesDistances } from './useCitiesDistances'
 import { Background } from './background/Background'
+import { useMaybeMemo } from '@/lib/maybe-memoize'
 
 export function CitySearch() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -15,7 +16,7 @@ export function CitySearch() {
 
   const distances = useCitiesDistances({ cities, selectedCity })
 
-  const filteredCities = useMemo(() => {
+  const filteredCities = useMaybeMemo(() => {
     return cities.filter(
       (city) =>
         city.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
