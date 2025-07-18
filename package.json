@@ -16,6 +16,8 @@
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
+    "build:good": "npm run build -- --mode good",
+    "build:bad": "npm run build -- --mode bad",
     "serve": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
